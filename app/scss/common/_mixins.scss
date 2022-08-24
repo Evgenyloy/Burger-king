@@ -1,0 +1,9 @@
+@mixin my-mixin($color: red, $height: 100px, $padd...) {
+  color: $color;
+  height: $height;
+  padding: $padd;
+
+  @extend %flex-center;
+}
+
+//!значения будут подставляться через параметры, вставляем через @include
